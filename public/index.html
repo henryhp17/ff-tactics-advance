@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+
+    <title>Final Fantasy Tactics Advance</title>
+
+    <!-- CSS styling -->
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS library -->
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular-route/angular-route.min.js"></script>
+
+    <!-- Angular Custom JS -->
+    <script src="js/controllers/MainController.js"></script>
+    <script src="js/controllers/JobController.js"></script>
+    <script src="js/services/JobService.js"></script>
+    <script src="js/appRoutes.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body ng-app="fftaApp" ng-controller="MainController">
+    <div class="container">
+
+        <!-- Header -->
+        <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Final Fantasy Tactics Advance</a>
+            </div>
+
+            <!-- Main menu links -->
+            <ul class="nav navbar-nav">
+                <li><a href="/jobs">Job</a></li>
+            </ul>
+        </nav>
+
+        <!-- Dynamic content -->
+        <div ng-view></div>
+
+    </div>
+</body>
+</html>

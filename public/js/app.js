@@ -1,0 +1,1 @@
+angular.module('fftaApp', ['ngRoute', 'appRoutes', 'MainController', 'JobController', 'JobService']);
