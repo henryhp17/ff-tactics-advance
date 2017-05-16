@@ -11,6 +11,16 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
       .when('/jobs', {
         templateUrl: 'views/job.html',
         controller: 'JobController'
+      })
+
+      .when('/abilities', {
+        templateUrl: 'views/ability.html',
+        controller: 'AbilityController'
+      })
+
+      .when('/abilities/edit', {
+        templateUrl: 'views/ability-form.html',
+        controller: 'AbilityController'
       });
 
   $locationProvider.html5Mode(true);

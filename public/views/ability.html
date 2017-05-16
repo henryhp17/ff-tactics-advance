@@ -1,0 +1,11 @@
+<div ng-controller="AbilityController">
+    <p>{{ testVariable }}</p>
+    <button class="ui button">Add new ability</button>
+    <table>
+        <tr ng-repeat="ability in abilityList">
+            <td>{{ ability.name }}</td>
+            <td>{{ ability.description }}</td>
+        </tr>
+    </table>
+
+</div>

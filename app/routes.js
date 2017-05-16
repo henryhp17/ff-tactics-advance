@@ -1,29 +1,16 @@
-var job = require('./models/job');
+var path = require('path');
 
-module.exports = function(app) {
+module.exports = function(app, router) {
   // server routes for API calls and authentication ===
+  require('./routes/jobRoute')(router);
+  require('./routes/abilityRoute')(router);
 
-  // list all available jobs and their information
-  app.get('/api/jobs', function(req, res) {
-
-    // use mongoose to get all jobs in database
-    job.find(function(err, jobs) {
-      if (err) res.send(err);
-
-      // return all jobs in JSON format
-      res.json(nerds);
-    });
-  });
-
-  // add new job to the database
-  // delete existing job in the database
-
+  // register all API router to the application
+  app.use('/api', router);
 
   // front end routes to for user interface ===
-
-  // dashboard page
   app.get('*', function(req, res) {
-    res.sendFile('./public/views/index.html');
+    res.sendFile(path.join(__dirname, '../public', 'index.html'));
   });
 
 };

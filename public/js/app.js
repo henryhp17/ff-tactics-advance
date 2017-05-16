@@ -1,1 +1,1 @@
-angular.module('fftaApp', ['ngRoute', 'appRoutes', 'MainController', 'JobController', 'JobService']);
+angular.module('fftaApp', ['ngRoute', 'appRoutes', 'MainController', 'AbilityController', 'JobController', 'JobService']);
