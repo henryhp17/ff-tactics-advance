@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "bangaa",
+    "name": "Bangaa",
+    "totema": "Adrammelech"
+  },
+  {
+    "_id": "human",
+    "name": "Human",
+    "totema": "Mateus"
+  },
+  {
+    "_id": "moogle",
+    "name": "Moogle",
+    "totema": "Famfrit"
+  },
+  {
+    "_id": "nu mou",
+    "name": "Nu Mou",
+    "totema": "Ultima"
+  },
+  {
+    "_id": "viera",
+    "name": "Viera",
+    "totema": "Exodus"
+  }
+]
