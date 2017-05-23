@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<% include ./partials/head %>
+	<body class="container">
+		<% include ./partials/header %>
+		<h1><%= title %></h1>
+		<p>Welcome to <%= title %></p>
+		<form class="form-horizontal col-md-4" method="post" action="addJob">
+			<fieldset>
+				<legend>New Job Creation</legend>
+				<div class="form-group">
+					<label class="control-label" for="jobName">Job Name:</label>
+					<input type="text" class="form-control" name="jobName"/>
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="stat">Status: (move-jump-evade)</label>
+					<input type="text" class="form-control" name="stat"/>
+				</div>
+				<div class="form-group">
+					<label class="control-label" for="race">Races:</label>
+					<% for (var i = 0; i < races.length; i++) { %>
+						<label class="checkbox-inline"><input type="checkbox" name="race" value='<%= races[i] %>'><%= races[i] %></label>
+					<% } %>
+				</div>
+				<div class="form-group">
+					<h3>Equipments</h3>
+					<label for="weapons">Weapons:</label>
+					<select class="form-control" name="weapons" multiple>
+						<% for (var i = 0; i < weapons.length; i++) { %>
+							<option value="<%= weapons[i] %>"><%= weapons[i] %></option>
+						<% } %>
+					</select>
+					<label for="headgear">Headgear:</label>
+					<select class="form-control" name="headgear" multiple>
+						<% for (var i = 0; i < headgear.length; i++) { %>
+							<option value="<%= headgear[i] %>"><%= headgear[i] %></option>
+						<% } %>
+					</select>
+					<label for="armor">Armor:</label>
+					<select class="form-control" name="armor" multiple>
+						<% for (var i = 0; i < armor.length; i++) { %>
+							<option value="<%= armor[i] %>"><%= armor[i] %></option>
+						<% } %>
+					</select>
+					<label for="shield">Shield</label>
+					<label class="radio-inline"><input type="radio" name="shields" value="true">Yes</label>
+					<label class="radio-inline"><input type="radio" name="shields" value="false">No</label>
+				</div>
+				<div class="form-group">
+					<label for="abilities">Abilities:</label>
+					<textarea class="form-control" rows="5" name="abilities"></textarea>
+				</div>
+			</fieldset>
+			<button type="submit" class="btn btn-default">Create New Job</button>
+		</form>
+	</body>
+</html>

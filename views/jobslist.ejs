@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<% include ./partials/head %>
+	<body class="container">
+		<% include ./partials/header %>
+		<h1><%= title %></h1>
+		<p>Welcome to <%= title %></p>
+		<ul>
+			<% for (var i = 0; i < jobs.length; i++) { %>
+				<li>
+					<a href="jobs/<%= jobs[i] %>"><%= jobs[i] %></a>
+				</li>
+			<% } %>
+		</ul>
+	</body>
+</html>

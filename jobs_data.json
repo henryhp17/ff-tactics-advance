@@ -1,0 +1,504 @@
+[
+  {
+    "name": "soldier",
+    "image": "",
+    "race": [
+      "human"
+    ],
+    "growth": {
+      "human": [
+        "8.4",
+        "1.1",
+        "8.8",
+        "8.8",
+        "6.0",
+        "7.2",
+        "1.1"
+      ]
+    },
+    "a-prereq": "",
+    "equip": {
+      "weapon": [
+        "swords",
+        "greatswords"
+      ],
+      "head": [
+        "hats",
+        "helms"
+      ],
+      "body": [
+        "clothing",
+        "heavy armor"
+      ],
+      "shield": true
+    },
+    "status": {
+      "move": "4",
+      "jump": "2",
+      "evade": "50"
+    },
+    "abilities": {
+      "battle tech": [
+        "first aid",
+        "powerbreak",
+        "mindbreak",
+        "magicbreak",
+        "speedbreak",
+        "mug",
+        "provoke",
+        "sensor"
+      ],
+      "support": [
+        "monkey grip",
+        "shieldbearer"
+      ],
+      "combo": "combat combo"
+    }
+  },
+  {
+    "name": "thief",
+    "image": "",
+    "race": [
+      "human",
+      "moogle"
+    ],
+    "growth": {
+      "human": [
+        "6.6",
+        "1.1",
+        "7.6",
+        "7.6",
+        "7.6",
+        "6.4",
+        "1.8"
+      ],
+      "moogle": [
+        "5.8",
+        "2.2",
+        "7.3",
+        "8.4",
+        "6.8",
+        "7.6",
+        "1.9"
+      ]
+    },
+    "a-prereq": "",
+    "equip": {
+      "weapon": "knives",
+      "head": "hats",
+      "body": "clothing",
+      "shield": false
+    },
+    "status": {
+      "move": "4",
+      "jump": "3",
+      "evade": "65"
+    },
+    "abilities": {
+      "steal": [
+        "steal: armor",
+        "steal: shield",
+        "steal: access.",
+        "steal: helm",
+        "steal: weapon",
+        "steal: gil",
+        "steal: EXP",
+        "steal: JP",
+        "steal: ability"
+      ],
+      "reaction": "counter",
+      "support": "maintenance",
+      "combo": "thief combo"
+    }
+  },
+  {
+    "name": "archer",
+    "image": "",
+    "race": [
+      "human",
+      "viera"
+    ],
+    "growth": {
+      "human": [
+        "7.2",
+        "1.1",
+        "7.2",
+        "7.2",
+        "6.4",
+        "8.1",
+        "1.4"
+      ],
+      "viera": [
+        "7.2",
+        "1.6",
+        "8.1",
+        "6.8",
+        "7.2",
+        "7.6",
+        "1.6"
+      ]
+    },
+    "a-prereq": "",
+    "equip": {
+      "weapon": "bows",
+      "head": "hats",
+      "body": "clothing",
+      "shield": false
+    },
+    "status": {
+      "move": "4",
+      "jump": "2",
+      "evade": "50"
+    },
+    "abilities": {
+      "aim": [
+        "boost",
+        "aim: legs",
+        "aim: arm",
+        "cupid",
+        "burial",
+        "take aim",
+        "faster",
+        "blackout"
+      ],
+      "reaction": "block arrows",
+      "support": "concentrate",
+      "combo": "bow combo"
+    }
+  },
+  {
+    "name": "black mage",
+    "image": "",
+    "race": [
+      "human",
+      "moogle",
+      "nu mou"
+    ],
+    "growth": {
+      "human": [
+        "5.6",
+        "4.4",
+        "6.4",
+        "6.8",
+        "8.8",
+        "9.6",
+        "1.1"
+      ],
+      "moogle": [
+        "5.4",
+        "4.8",
+        "5.7",
+        "7.6",
+        "8.4",
+        "9.7",
+        "1.1"
+      ],
+      "nu mou": [
+        "5.4",
+        "5.2",
+        "6.2",
+        "6.8",
+        "9.2",
+        "10.2",
+        "0.9"
+      ]
+    },
+    "a-prereq": "",
+    "equip": {
+      "weapon": "rods",
+      "head": "hats",
+      "body": [
+        "clothing",
+        "robes"
+      ],
+      "shield": false
+    },
+    "status": {
+      "move": "3",
+      "jump": "2",
+      "evade": "35"
+    },
+    "abilities": {
+      "black magic": [
+        "fire",
+        "fira",
+        "firaga",
+        "thunder",
+        "thundara",
+        "thundaga",
+        "blizzard",
+        "blizzara",
+        "blizzaga"
+      ],
+      "reaction": "return magic",
+      "support": "geomancy",
+      "combo": "black combo"
+    }
+  },
+  {
+    "name": "white mage",
+    "image": "",
+    "race": [
+      "human",
+      "nu mou",
+      "viera"
+    ],
+    "growth": {
+      "human": [
+        "6.1",
+        "4.8",
+        "6.2",
+        "7.3",
+        "8.4",
+        "8.2",
+        "1.2"
+      ],
+      "nu mou": [
+        "5.8",
+        "5.6",
+        "5.7",
+        "7.3",
+        "8.8",
+        "8.4",
+        "1.1"
+      ],
+      "viera": [
+        "6.2",
+        "4.8",
+        "6.2",
+        "7.2",
+        "8.8",
+        "7.6",
+        "1.2"
+      ]
+    },
+    "a-prereq": "",
+    "equip": {
+      "weapon": "staves",
+      "head": [
+        "hats",
+        "ornaments"
+      ],
+      "body": [
+        "clothing",
+        "robes"
+      ],
+      "shield": false
+    },
+    "status": {
+      "move": "3",
+      "jump": "2",
+      "evade": "40"
+    },
+    "abilities": {
+      "white magic": [
+        "cure",
+        "cura",
+        "curaga",
+        "esuna",
+        "life",
+        "full-life",
+        "auto-life",
+        "shell",
+        "protect"
+      ],
+      "support": "turbo MP",
+      "combo": "white combo"
+    }
+  },
+  {
+    "name": "paladin",
+    "image": "",
+    "race": [
+      "human"
+    ],
+    "growth": {},
+    "a-prereq": {
+      "soldier": "2"
+    },
+    "equip": {
+      "weapon": [
+        "swords",
+        "greatswords"
+      ],
+      "head": [
+        "hats",
+        "helms"
+      ],
+      "body": [
+        "clothing",
+        "heavy armor"
+      ],
+      "shield": true
+    },
+    "status": {
+      "move": "4",
+      "jump": "2",
+      "evade": "50"
+    },
+    "abilities": []
+  },
+  {
+    "name": "fighter",
+    "image": "",
+    "race": [
+      "human"
+    ],
+    "growth": {},
+    "a-prereq": {
+      "soldier": "2"
+    },
+    "equip": {
+      "weapon": [
+        "swords",
+        "greatswords"
+      ],
+      "head": [
+        "hats",
+        "helms"
+      ],
+      "body": [
+        "clothing",
+        "heavy armor"
+      ],
+      "shield": true
+    },
+    "status": {
+      "move": "4",
+      "jump": "2",
+      "evade": "50"
+    },
+    "abilities": []
+  },
+  {
+    "name": "ninja",
+    "image": "",
+    "race": [
+      "human"
+    ],
+    "growth": {},
+    "a-prereq": {
+      "thief": "2"
+    },
+    "equip": {
+      "weapon": [
+        "swords",
+        "greatswords"
+      ],
+      "head": [
+        "hats",
+        "helms"
+      ],
+      "body": [
+        "clothing",
+        "heavy armor"
+      ],
+      "shield": true
+    },
+    "status": {
+      "move": "4",
+      "jump": "2",
+      "evade": "50"
+    },
+    "abilities": []
+  },
+  {
+    "name": "hunter",
+    "image": "",
+    "race": [
+      "human"
+    ],
+    "growth": {},
+    "a-prereq": {
+      "archer": "2"
+    },
+    "equip": {
+      "weapon": [
+        "swords",
+        "greatswords"
+      ],
+      "head": [
+        "hats",
+        "helms"
+      ],
+      "body": [
+        "clothing",
+        "heavy armor"
+      ],
+      "shield": true
+    },
+    "status": {
+      "move": "4",
+      "jump": "2",
+      "evade": "50"
+    },
+    "abilities": []
+  },
+  {
+    "name": "blue mage",
+    "image": "",
+    "race": [
+      "human"
+    ],
+    "growth": {},
+    "a-prereq": {
+      "black mage": "1",
+      "white mage": "1"
+    },
+    "equip": {
+      "weapon": [
+        "swords",
+        "greatswords"
+      ],
+      "head": [
+        "hats",
+        "helms"
+      ],
+      "body": [
+        "clothing",
+        "heavy armor"
+      ],
+      "shield": true
+    },
+    "status": {
+      "move": "4",
+      "jump": "2",
+      "evade": "50"
+    },
+    "abilities": []
+  },
+  {
+    "name": "illusionist",
+    "image": "",
+    "race": [
+      "human",
+      "nu mou"
+    ],
+    "growth": {},
+    "a-prereq": {
+      "black mage": "5",
+      "white mage": "3"
+    },
+    "equip": {
+      "weapon": [
+        "swords",
+        "greatswords"
+      ],
+      "head": [
+        "hats",
+        "helms"
+      ],
+      "body": [
+        "clothing",
+        "heavy armor"
+      ],
+      "shield": true
+    },
+    "status": {
+      "move": "4",
+      "jump": "2",
+      "evade": "50"
+    },
+    "abilities": []
+  }
+]
